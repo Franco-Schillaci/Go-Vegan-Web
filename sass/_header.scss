@@ -1,0 +1,11 @@
+/* ----- Header ----- */
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+}
+
+.header__container{
+    background: linear-gradient(90deg, #24462b 50%, #1ade86 100%);
+    padding: 5px
+}
