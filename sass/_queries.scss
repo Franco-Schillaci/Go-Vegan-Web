@@ -1,35 +1,86 @@
 /* ----- Media Queries ----- */
 @media only screen and (max-width: 768px) {
-    .article, .article2 {
+
+    .article,
+    .article2 {
         display: grid;
     }
+
     .imgArticle {
         width: 100%;
     }
+
     #menuHeader {
         text-align: center;
     }
-    }
+}
 
 @media only screen and (max-width: 1024px) {
-    .article, .article2 {
+
+    .article,
+    .article2 {
         display: grid;
     }
+
     .imgArticle {
         width: 100%;
         grid-row: none;
     }
+
     #menuHeader {
         text-align: center;
     }
+}
+
+@media only screen and (max-width: 376px) {
+    #recetas__container {
+        display: flex;
+        flex-direction: column;
     }
 
-    @media only screen and (max-width: 376px) {
-    #recetas__container {
-    display: flex;
-    flex-direction: column;
-}
     #videoReceta {
         display: none;
     }
-        }
+
+    .restoBarResponsiveContainer {
+        color: #fafafa;
+        justify-content: center;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .restoBarResponsive {
+        text-decoration: none;
+        color: #fafafa;
+    }
+
+    .nombreIgResposive {
+        color: #fafafa;
+    }
+
+    .veganBar {
+        flex-direction: column;
+    }
+
+    .veganBar iframe {
+        display: none;
+    }
+
+    .nombreIg {
+        display: none;
+    }
+
+    .emprendimientosIg {
+        font-size: 10px;
+    }
+    .footer__list-social {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 376px) {
+    .restoBarResponsive {
+        display: none;
+    }
+
+}

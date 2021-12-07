@@ -105,7 +105,6 @@ h2 {
 .veganFood {
   display: flex;
   justify-content: space-around;
-  background: #2d6a4f;
   margin-top: 20px;
   width: 100%;
   margin-bottom: 20px; }
@@ -193,6 +192,39 @@ h2 {
 ul {
   list-style: none !important; }
 
+.fas {
+  margin-top: -5px; }
+
+.emprendimientosIg {
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-decoration: none; }
+
+.emprendimientosIg:hover {
+  color: green; }
+
+.veganFood2 {
+  position: relative;
+  text-align: center;
+  display: flex;
+  margin-bottom: 50px; }
+
+.veganFood2 img {
+  width: 75%;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 25px; }
+
+.nombreIg {
+  margin-top: 7px;
+  margin-left: 15px;
+  font-weight: bold; }
+
+.index_noticias {
+  margin: 30px 30px;
+  font-size: 18px; }
+
 /* ----- Header ----- */
 header {
   position: sticky;
@@ -213,7 +245,8 @@ footer {
   footer .footer__list-social {
     padding: 25px;
     color: #fafafa;
-    margin: auto; }
+    margin: auto;
+    text-align: center; }
   footer .footer__list-social i {
     padding: 0px 25px; }
   footer .footer__list-social i:hover {
@@ -222,7 +255,8 @@ footer {
 
 /* ----- Media Queries ----- */
 @media only screen and (max-width: 768px) {
-  .article, .article2 {
+  .article,
+  .article2 {
     display: grid; }
   .imgArticle {
     width: 100%; }
@@ -230,7 +264,8 @@ footer {
     text-align: center; } }
 
 @media only screen and (max-width: 1024px) {
-  .article, .article2 {
+  .article,
+  .article2 {
     display: grid; }
   .imgArticle {
     width: 100%;
@@ -243,4 +278,28 @@ footer {
     display: flex;
     flex-direction: column; }
   #videoReceta {
+    display: none; }
+  .restoBarResponsiveContainer {
+    color: #fafafa;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none; }
+  .restoBarResponsive {
+    text-decoration: none;
+    color: #fafafa; }
+  .nombreIgResposive {
+    color: #fafafa; }
+  .veganBar {
+    flex-direction: column; }
+  .veganBar iframe {
+    display: none; }
+  .nombreIg {
+    display: none; }
+  .emprendimientosIg {
+    font-size: 10px; }
+  .footer__list-social {
+    text-align: center; } }
+
+@media only screen and (min-width: 376px) {
+  .restoBarResponsive {
     display: none; } }
